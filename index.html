@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+     background-color: black;
+    }
+#main1,#main2,#main3,#main4{
+    display: flex;
+}
+ #box{
+    border: 2px solid white;
+    width: 350px;
+    height: 400px;
+    background-color: darkgray;
+    margin-left: 10px;
+    margin-top: 10px;
+ }
+button{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+p{
+    font-weight: bold;
+}
+h1{
+    margin-left: 150px;
+}
+</style>
+<body>
+    
+    
+    <div id="main1">
+            <div id="box">
+            <h1>1</h1>
+        <p>Write a program that takes two user inputs for first and
+            last name using prompt and merge them in a new variable
+            titled fullName. Greet the user using his full name</p>
+            <button onclick="fullname()">fullname</button>
+        </div>
+
+
+        <div id="box">
+            <h1>2</h1>
+            <p>Write a program to take a user input about his favorite
+                mobile phone model. Find and display the length of user
+                input in your browser</p>
+            <button onclick="mobile()">favourite mobile</button>
+        </div>
+
+        <div id="box">
+            <h1>3</h1>
+            <p>Write a program to find the index of letter in the word
+                “Pakistani” and display the result in your browser</p>
+                <button onclick="pak()">find index</button>
+        </div>
+
+
+
+        <div id="box">
+            <h1>4</h1>
+            <p>Write a program to find the last index of letter in the
+                word “Hello World” and display the result in your browser.</p>
+                <button onclick="last()">find last index</button>
+        </div>
+
+        </div>
+
+
+
+
+
+
+        
+
+
+
+
+
+
+<div id="main2">
+    <div id="box">
+        <h1>5</h1>
+        <p>Write a program to find the character at 3rd index in the
+            word “Pakistani” and display the result in your browser.</p>
+            <button onclick="find()">find character</button>
+    </div>
+    
+    
+    
+    <div id="box">
+        <h1>6</h1>
+        <p>Write a program to replace the “Hyder” to “Islam” in the
+            word “Hyderabad” and display the result in your browser.</p>
+            <button onclick="replace()">replace</button>
+    </div>
+    
+    
+    <div id="box">
+        <h1>7</h1>
+        <p>Write a program to replace all occurrences of “and” in the
+            string with “&” and display the result in your browser.
+            var message = “Ali and Sami are best friends. They play cricket and
+            football together.”;</p>
+            <button onclick="replace2()">replace 2</button>
+    </div>
+    
+    
+    <div id="box">
+        <h1>8</h1>
+        <p>Write a program that converts a string “472” to a number
+            472. Display the values & types in your browser.</p>
+            <button onclick="convert()">convert</button>
+    </div>
+
+
+</div>
+
+
+
+   <div id="main3">
+
+
+    <div id="box">
+        <h1>9</h1>
+        <p>Write a program that takes user input. Convert and
+            show the input in capital letters.</p>
+            <button onclick="capital()">convert appercase</button>
+    </div>
+
+
+    <div id="box">
+        <h1>10</h1>
+        <p>Write a program that takes user input. Convert and
+            show the input in title case</p>
+            <button onclick="tittle()">convert tittlecase</button>
+    </div>
+
+
+    <div id="box">
+        <h1>11</h1>
+        <p>Write a program that converts the variable num to
+            string.
+            var num = 35.36 ;
+            Remove the dot to display “3536” display in your browser.</p>
+            <button onclick="convert2()">convert </button>
+    </div>
+
+
+    <div id="box">
+        <h1>12</h1>
+        <p>You have an array
+            A = [cake”, “apple pie”, “cookie”, “chips”, “patties”]
+            Write a program to enable “search by user input” in an
+            array. After searching, prompt the user whether the given
+            item is found in the list or not.
+            Note: Perform case insensitive search. Whether the user
+            enters cookie, Cookie, COOKIE or coOkIE, program
+            should inform about its availability. Example:</p>
+            <button onclick=" searchItem()">search items </button>
+    </div>
+
+
+
+   </div>
+
+
+
+
+
+
+   <div id="main4">
+
+    <div id="box">
+        <h1>13</h1>
+        <p>Write a program to take password as an input from
+            user. The password must qualify these requirements:
+            a. It should contain alphabets and numbers
+            b. It should not start with a number
+            c. It must at least 6 characters long
+            If the password does not meet above requirements,
+            prompt the user to enter a valid password.
+            For character codes of a-z, A-Z & 0-9, refer to ASCII
+            table at the end of this document.
+             </p>
+            <button onclick="getPassword()">password</button>
+    </div>
+
+
+    <div id="box">
+        <h1>14</h1>
+        <p>Write a program to convert the following string to an
+            array using string split method.
+            var university = “University of Karachi”;
+            Display the elements of array in your browser.
+            </p>
+            <button onclick="array()">convert3</button>
+    </div>
+
+
+    <div id="box">
+        <h1>15</h1>
+        <p>Write a program to display the last character of a user
+            input.</p>
+            <button onclick="last2()">last </button>
+    </div>
+
+
+    <div id="box">
+        <h1>16</h1>
+        <p>You have a string “The quick brown fox jumps over the
+            lazy dog”. Write a program to count number of
+            occurrences of word “the” in given string</p>
+            <button onclick="occur()">find occurrence </button>
+    </div>
+
+
+   </div>
+
+
+</body>
+<script src="scrript.js"></script>
+</html>
